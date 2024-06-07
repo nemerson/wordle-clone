@@ -5,7 +5,7 @@ todays_word = todays_word.upper()
 checked_guess = [''] * 5
 counter = 0
 
-GREEN = '\033[92m'
+BLUE = '\033[94m'
 YELLOW = '\033[93m'
 RED = '\033[91m'
 RESET = '\033[0m'
@@ -18,7 +18,7 @@ while counter < 6 :
     else : 
         for i in range(5) :
             if player_guess[i] == todays_word[i] :
-                checked_guess[i] = GREEN + player_guess[i] + RESET
+                checked_guess[i] = BLUE + player_guess[i] + RESET
             elif player_guess[i] in todays_word :
                 checked_guess[i] = YELLOW + player_guess[i] + RESET
             else :
