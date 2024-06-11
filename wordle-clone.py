@@ -1,4 +1,4 @@
-todays_word = 'spork'
+todays_word = 'queer'
 
 todays_word = todays_word.upper()
 checked_guess = [''] * 5
